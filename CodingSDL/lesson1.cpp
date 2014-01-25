@@ -4,7 +4,7 @@ and may not be redistributed without written permission.*/
 // 将SDL函数和数据类型包含进来
 #include "SDL/SDL.h"
 
-int main()
+int main(int argc, char *args[])
 {
     // 声明表面
     SDL_Surface* hello = NULL;
